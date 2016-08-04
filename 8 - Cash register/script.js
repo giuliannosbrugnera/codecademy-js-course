@@ -36,7 +36,7 @@ var cashRegister = {
         this.lastTransactionAmount = 0;
     },
     applyStaffDiscount: function(employee) {
-        this.total -= this.total * (employee.discountPercent / 100)
+        this.total -= this.total * (employee.discountPercent / 100);
     }
 };
 
