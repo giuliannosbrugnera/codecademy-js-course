@@ -44,6 +44,6 @@ cashRegister.scan('eggs', 1);
 cashRegister.scan('milk', 1);
 cashRegister.scan('magazine', 3);
 
-applyStaffDiscount(me);
+cashRegister.applyStaffDiscount(me);
 
 console.log('Your bill is ' + cashRegister.total.toFixed(2));
